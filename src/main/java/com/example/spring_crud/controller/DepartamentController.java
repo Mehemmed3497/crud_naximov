@@ -33,10 +33,13 @@ public class DepartamentController {
     @DeleteMapping("departments/{id}")
     public void  deleteDepartmentsById(@PathVariable(name = "id") Long idMehmed) {
         System.out.println("Idmehmed postmandan bura geldi silinecek  " + idMehmed);
+        System.out.println("everthing will be okay" + idMehmed);
          departamentService.deleteDepartmentsById(idMehmed);
     }
 
     //create
     //update
+
+
 
 }
